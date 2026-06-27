@@ -7,8 +7,8 @@
 // build step, OR you paste them directly here for static deploy.
 // ============================================================
 
-const SUPABASE_URL = window.__NEXUS_CONFIG__?.url || 'https://pzuhxmaobmfffdxbmwfr.supabase.co';
-const SUPABASE_ANON_KEY = window.__NEXUS_CONFIG__?.key || 'sb_publishable_RCTKnpk-2eCXLVeQCf6EJw_WDwRm2FK';
+const SUPABASE_URL = 'https://pzuhxmaobmfffdxbmwfr.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_RCTKnpk-2eCXLVeQCf6EJw_WDwRm2FK';
 
 // Load Supabase SDK dynamically
 async function loadSupabase() {
